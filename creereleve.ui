@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreerEleve</class>
+ <widget class="QWidget" name="CreerEleve">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>466</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>361</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Candidat choisi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="candidat"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Nom de l'élève</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="nom"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Prenom  l'élève</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="prenom"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Age de  l'élève</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QSpinBox" name="age"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Contact de  l'élève</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="contact"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Enseignant en charge</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="enseignant"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Classe sollicitée</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="classe"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>login</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="login"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="password"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Création d'un Elève</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="valider">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>350</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>350</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

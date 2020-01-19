@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CandidatureForm</class>
+ <widget class="QWidget" name="CandidatureForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>361</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Nom du candidat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nom"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Prenom  du candidat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="prenom"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Age du candidat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QSpinBox" name="age"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Contact dcandidat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="contact"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Enseignant en charge</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="enseignant"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Classe sollicitée</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="classe"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>sexe</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="sexe">
+      <item>
+       <property name="text">
+        <string>Homme</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Femme</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>260</width>
+     <height>244</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Liste des documents affiliées</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTreeWidget" name="treeDoc">
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="ajouterBoutonFichier">
+        <property name="text">
+         <string>ajouter</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="telechargerBouton">
+        <property name="text">
+         <string>telecharger</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QCheckBox" name="checkAccept">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>260</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Acceptée</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkRefuse">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>260</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Refusée</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkClose">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>260</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ValiderBouton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>80</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitter">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>290</y>
+     <width>260</width>
+     <height>244</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Listes des commentaires</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTreeWidget" name="treeCmt">
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="ajouterComment">
+        <property name="text">
+         <string>ajouter</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="modifierComment">
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Formulaire de Candidature</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
